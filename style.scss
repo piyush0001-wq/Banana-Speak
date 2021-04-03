@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+body {
+  font-family: Caveat;
+  text-align: center;
+  background: rgb(212, 228, 241);
+  margin: 0;
+}
+::placeholder {
+  color: rgb(143, 143, 143);
+  font-size: 25px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  h1 {
+    margin: 0;
+    font-size: 50px;
+    padding: 10px 0;
+    background: linear-gradient(to left, rgb(245, 181, 6), rgb(255, 94, 0));
+    span {
+      font-size: 25px;
+      color: rgb(116, 116, 116);
+    }
+  }
+  textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 3rem auto;
+    font-size: 25px;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
+    text-align: center;
+    outline: none;
+  }
+  #btn-translate {
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgb(255, 102, 0);
+    padding: 10px 30px;
+    margin: 10px auto;
+    font-size: 20px;
+    &:hover {
+      background: rgb(255, 102, 0);
+      color: white;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  }
+  .output-msg {
+    p {
+      font-size: 25px;
+    }
+  }
+  #output {
+    border: 2px solid white;
+    background: white;
+    color: black;
+    font-size: 25px;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
+    overflow-y: auto;
+    overflow-y: hidden;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to left, rgb(245, 181, 6), rgb(255, 94, 0));
+    h3 {
+      font-size: 25px;
+      font-weight: 400;
+      span {
+        font-weight: 600;
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

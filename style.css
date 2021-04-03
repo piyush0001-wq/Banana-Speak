@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+body {
+  font-family: Caveat;
+  text-align: center;
+  background: #d4e4f1;
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #8f8f8f;
+  font-size: 25px;
+}
+
+:-ms-input-placeholder {
+  color: #8f8f8f;
+  font-size: 25px;
+}
+
+::-ms-input-placeholder {
+  color: #8f8f8f;
+  font-size: 25px;
+}
+
+::placeholder {
+  color: #8f8f8f;
+  font-size: 25px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 50px;
+  padding: 10px 0;
+  background: -webkit-gradient(linear, right top, left top, from(#f5b506), to(#ff5e00));
+  background: linear-gradient(to left, #f5b506, #ff5e00);
+}
+
+.container h1 span {
+  font-size: 25px;
+  color: #747474;
+}
+
+.container textarea {
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 3rem auto;
+  font-size: 25px;
+  padding: 1rem;
+  border: none;
+  -webkit-box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
+          box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
+  text-align: center;
+  outline: none;
+}
+
+.container #btn-translate {
+  outline: none;
+  border: none;
+  background: transparent;
+  border: 2px solid #ff6600;
+  padding: 10px 30px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.container #btn-translate:hover {
+  background: #ff6600;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container .output-msg p {
+  font-size: 25px;
+}
+
+.container #output {
+  border: 2px solid white;
+  background: white;
+  color: black;
+  font-size: 25px;
+  height: 10vh;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  -webkit-box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
+          box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
+  overflow-y: auto;
+  overflow-y: hidden;
+}
+
+.container footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, right top, left top, from(#f5b506), to(#ff5e00));
+  background: linear-gradient(to left, #f5b506, #ff5e00);
+}
+
+.container footer h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.container footer h3 span {
+  font-weight: 600;
+}
+
+.container footer h3 span span {
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
