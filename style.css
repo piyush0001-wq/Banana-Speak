@@ -33,7 +33,7 @@ body {
 
 .container h1 {
   margin: 0;
-  font-size: 50px;
+  font-size: 30px;
   padding: 10px 0;
   background: -webkit-gradient(linear, right top, left top, from(#f5b506), to(#ff5e00));
   background: linear-gradient(to left, #f5b506, #ff5e00);
@@ -49,7 +49,7 @@ body {
   height: 10vh;
   display: block;
   margin: 3rem auto;
-  font-size: 20px;
+  font-size: 25px;
   padding: 1rem;
   border: none;
   -webkit-box-shadow: 0 3px 40px rgba(255, 174, 0, 0.664);
